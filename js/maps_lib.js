@@ -302,7 +302,7 @@
     
     MapsLib.prototype.getList = function(whereClause) {
     var self = this;
-    var selectColumns = 'STORE_NUM, STR_NM, ADDRESS';
+    var selectColumns = 'STORE_NUM, STR_NM, ADDRESS, Latitude, Longitude';
 
     self.query({ 
       select: selectColumns, 
@@ -331,11 +331,13 @@
           <div class='row-fluid item-list'>\
             <div class='span12'>\
                 <div class='well'>\
-              " + '<b>&#8226; Store Number: </b>' + data[row][0] + "\
+              " + '<b>&#8226; STORE_NUM: </b>' + data[row][0] + "\
               <br />\
-              " + '<b>&#8226; Store Name: </b>' + data[row][1] + "\
+              " + '<b>&#8226; STR_NM: </b>' + data[row][1] + "\
               <br />\
-              " + '<b>&#8226; Address: </b>' + data[row][2] + "\
+              " + '<b>&#8226; ADDRESS: </b>' + data[row][2] + "\
+              <br />\
+              " + '<b>&#8226; Distance: </b>' + getdistance(center.lat(), center.lng(), data[row][3], data[row][4] + "\
               <br />\
                 </div>\
             </div>\
