@@ -302,7 +302,7 @@
     
     MapsLib.prototype.getList = function(whereClause) {
     var self = this;
-    var selectColumns = 'STORE_NUM, STR_NM, ADDRESS';
+    var selectColumns = 'STORE_NUM, STR_NM, ADDRESS, Latitude, Longitude';
 
     self.query({ 
       select: selectColumns, 
@@ -337,6 +337,8 @@
               <br />\
               " + '<b>&#8226; ADDRESS: </b>' + data[row][2] + "\
               <br />\
+              /*" + '<b>&#8226; Distance: </b>' + getdistance(__,__, data[row][3], data[row][4] + "\
+              <br />\*/
                 </div>\
             </div>\
           </div>";
