@@ -331,11 +331,11 @@
           <div class='row-fluid item-list'>\
             <div class='span12'>\
                 <div class='well'>\
-              " + '<b>&#8226; Venue: </b>' + data[row][0] + "\
+              " + '<b>&#8226; STORE_NUM: </b>' + data[row][0] + "\
               <br />\
-              " + '<b>&#8226; Date: </b>' + data[row][1] + "\
+              " + '<b>&#8226; STR_NM: </b>' + data[row][1] + "\
               <br />\
-              " + '<b>&#8226; Address: </b>' + data[row][2] + "\
+              " + '<b>&#8226; ADDRESS: </b>' + data[row][2] + "\
               <br />\
                 </div>\
             </div>\
