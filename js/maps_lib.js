@@ -337,7 +337,7 @@
               <br />\
               " + '<b>&#8226; ADDRESS: </b>' + data[row][2] + "\
               <br />\
-              " + '<b>&#8226; Distance: </b>' + getdistance(center.lat(), center.lng(), data[row][3], data[row][4]) + "\
+              " + '<b>&#8226; Distance: </b>' + data[row][3] + "\
               <br />\
                 </div>\
             </div>\
