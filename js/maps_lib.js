@@ -335,8 +335,8 @@
               <br />\
               " + '<b>&#8226; STR_NM: </b>' + data[row][1] + "\
               <br />\
-              " + '<b>&#8226; ADDRESS: </b>' + data[row][2] + "\       
-              
+              " + '<b>&#8226; ADDRESS: </b>' + data[row][2] + "\
+              <br />\
                 </div>\
             </div>\
           </div>";
